@@ -1,6 +1,8 @@
 💼 Aplikasi Koperasi Seragam Sekolah – Sistem Antrian & Pelayanan
 Aplikasi berbasis Python untuk membantu pengelolaan antrian dan pencatatan pengambilan seragam siswa di sekolah. Dikembangkan khusus untuk kebutuhan internal koperasi sekolah.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📌 Fitur Utama
 ✅ Sistem login admin sederhana
 ✅ Pendaftaran siswa untuk pengambilan seragam dengan nomor antrian otomatis
@@ -11,6 +13,7 @@ Aplikasi berbasis Python untuk membantu pengelolaan antrian dan pencatatan penga
 ✅ Validasi input nama dan nomor antrian
 ✅ Tampilan status antrian dan siswa yang sudah dilayani
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧰 Teknologi yang Digunakan
 Bahasa Pemrograman: Python 3
 
@@ -20,6 +23,8 @@ Tidak menggunakan library eksternal
 
 Bisa dikompilasi menjadi .exe menggunakan PyInstaller
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🛠️ Cara Instalasi
 📦 Menggunakan File .exe
 Kompilasi file main.py menjadi .exe menggunakan perintah:
@@ -27,12 +32,14 @@ Kompilasi file main.py menjadi .exe menggunakan perintah:
 bash
 Copy
 Edit
-pyinstaller --onefile main.py
+pyinstaller --onefile uas.py
 Simpan main.exe dan koperasi_data.json dalam folder yang sama
 
 Jalankan main.exe dengan klik dua kali
 
 Tambahkan pengecualian jika dicegat Windows Defender
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧑‍💻 Menjalankan Dari Kode Sumber
 Clone repositori:
@@ -40,7 +47,7 @@ Clone repositori:
 bash
 Copy
 Edit
-git clone https://github.com/NamaAnda/RepoKoperasiSeragam
+git clone https://github.com/Zanz-15/RepoKoperasiSeragam
 Masuk ke folder proyek:
 
 bash
@@ -53,20 +60,28 @@ bash
 Copy
 Edit
 python main.py
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 👨‍🏫 Panduan Pengguna
 Login dengan username dan password admin
 
 Pilih menu:
 
-1: Daftarkan siswa (input nama → dapat nomor antrian)
+1: Masukan username = admin
+   masukan password = 1234
 
-2: Layani siswa sesuai nomor antrian → konfirmasi penyerahan seragam
+2: Daftarkan siswa (input nama → dapat nomor antrian)
 
-3: Tampilkan antrian aktif dan data siswa yang sudah dilayani
+3: Layani siswa sesuai nomor antrian → konfirmasi penyerahan seragam
 
-4: Reset semua data
+4: Tampilkan antrian aktif dan data siswa yang sudah dilayani
 
-5: Keluar dari aplikasi
+5: Reset semua data jika ingin mengulang dari awal atau jika diperlukan
+
+6: Keluar dari aplikasi
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📁 Struktur Folder
 bash
@@ -91,13 +106,20 @@ Edit
         { "nama": "Cici", "nomor_antrian": 0, "waktu_pengambilan": "2025-06-07 08:23:10" }
     ]
 }
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📝 Lisensi
 Aplikasi ini dibuat untuk keperluan edukasi dan dapat digunakan bebas untuk pengelolaan internal koperasi sekolah.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🙌 Kontributor
 Nama: [Masukkan Nama Anda]
 
-Sekolah: SMK / Sekolah Anda
+Sekolah: SMK Negeri 1 Probolinggo
 
 Mata Pelajaran: Dasar Pemrograman Komputer (DPK)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
